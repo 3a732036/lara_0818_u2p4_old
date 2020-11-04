@@ -9,16 +9,16 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.blade.php">Home</a>
+                    <a href="{{route('posts.index')}}">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.blade.php">About</a>
+                    <a href="{{route('posts.about')}}">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="post.blade.php">Sample Post</a>
+                    <a href="{{route('posts.show')}}">Sample Post</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.blade.php">Contact</a>
+                    <a href="{{route('posts.contact')}}">Contact</a>
                 </li>
             </ul>
         </div>
